@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/cloneCampaigns": [
+                "cloneCampaigns/cloneCampaigns.js"
+            ],
+            "c/pageButtons": [
+                "pageButtons/pageButtons.js"
+            ],
+            "c/campaignList": [
+                "campaignList/campaignList.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    },
+    "paths": {
+        "c/*": [
+            "*"
+        ]
+    }
+}

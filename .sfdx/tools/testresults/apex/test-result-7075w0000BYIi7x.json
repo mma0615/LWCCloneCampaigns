@@ -1,0 +1,326 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 3,
+        "passing": 0,
+        "failing": 3,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Sep 12, 2020 12:54 PM",
+        "testExecutionTime": "441 ms",
+        "testTotalTime": "441 ms",
+        "commandTime": "3626 ms",
+        "hostname": "https://curious-bear-mff7sb-dev-ed.my.salesforce.com",
+        "orgId": "00D5w000003I6u6EAC",
+        "username": "mikeyma1960@curious-bear-mff7sb.com",
+        "testRunId": "7075w0000BYIi7x",
+        "userId": "0055w00000BjSjTAAV",
+        "testRunCoverage": "55%",
+        "orgWideCoverage": "9%"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M5w000009t0kPEAQ"
+            },
+            "Id": "07M5w000009t0kPEAQ",
+            "QueueItemId": "7095w000000alItAAI",
+            "StackTrace": "Class.cloneCampaignControllerTest.cloneSelectedCampaignsTest: line 51, column 1",
+            "Message": "System.AssertException: Assertion Failed: Expected: Nothing to Clone..., Actual: Successfully Cloned...",
+            "AsyncApexJobId": "7075w0000BYIi7xAQD",
+            "MethodName": "cloneSelectedCampaignsTest",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                },
+                "Id": "01p5w00000KiFOtAAN",
+                "Name": "cloneCampaignControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 41,
+            "FullName": "cloneCampaignControllerTest.cloneSelectedCampaignsTest"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M5w000009t0kQEAQ"
+            },
+            "Id": "07M5w000009t0kQEAQ",
+            "QueueItemId": "7095w000000alItAAI",
+            "StackTrace": "Class.cloneCampaignControllerTest.getCampaignsCountTest: line 35, column 1",
+            "Message": "System.AssertException: Assertion Failed: Expected: 20, Actual: 0",
+            "AsyncApexJobId": "7075w0000BYIi7xAQD",
+            "MethodName": "getCampaignsCountTest",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                },
+                "Id": "01p5w00000KiFOtAAN",
+                "Name": "cloneCampaignControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 8,
+            "FullName": "cloneCampaignControllerTest.getCampaignsCountTest"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M5w000009t0kREAQ"
+            },
+            "Id": "07M5w000009t0kREAQ",
+            "QueueItemId": "7095w000000alItAAI",
+            "StackTrace": "Class.cloneCampaignControllerTest.getCampaignsListTest: line 25, column 1",
+            "Message": "System.AssertException: Assertion Failed: Expected: List: 20, Actual: List: 5",
+            "AsyncApexJobId": "7075w0000BYIi7xAQD",
+            "MethodName": "getCampaignsListTest",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                },
+                "Id": "01p5w00000KiFOtAAN",
+                "Name": "cloneCampaignControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 392,
+            "FullName": "cloneCampaignControllerTest.getCampaignsListTest"
+        }
+    ],
+    "coverage": {
+        "coverage": [
+            {
+                "id": "01p5w000009CHmzAAG",
+                "name": "cloneCampaignController",
+                "totalLines": 29,
+                "lines": {
+                    "4": 1,
+                    "9": 1,
+                    "10": 1,
+                    "11": 1,
+                    "12": 0,
+                    "14": 1,
+                    "16": 1,
+                    "21": 1,
+                    "23": 1,
+                    "24": 1,
+                    "26": 0,
+                    "28": 1,
+                    "33": 1,
+                    "35": 1,
+                    "36": 1,
+                    "38": 1,
+                    "40": 0,
+                    "42": 0,
+                    "43": 0,
+                    "45": 0,
+                    "46": 0,
+                    "47": 0,
+                    "50": 0,
+                    "52": 0,
+                    "55": 0,
+                    "57": 0,
+                    "58": 0,
+                    "64": 1,
+                    "68": 1
+                },
+                "totalCovered": 16,
+                "coveredPercent": 55
+            }
+        ],
+        "records": [
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxh8PAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                    },
+                    "Id": "01p5w00000KiFOtAAN",
+                    "Name": "cloneCampaignControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        33,
+                        35,
+                        36,
+                        38,
+                        64,
+                        68
+                    ],
+                    "uncoveredLines": [
+                        4,
+                        9,
+                        10,
+                        11,
+                        12,
+                        14,
+                        16,
+                        21,
+                        23,
+                        24,
+                        26,
+                        28,
+                        40,
+                        42,
+                        43,
+                        45,
+                        46,
+                        47,
+                        50,
+                        52,
+                        55,
+                        57,
+                        58
+                    ]
+                },
+                "TestMethodName": "cloneSelectedCampaignsTest",
+                "NumLinesCovered": 6,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w000009CHmzAAG"
+                    },
+                    "Id": "01p5w000009CHmzAAG",
+                    "Name": "cloneCampaignController"
+                },
+                "NumLinesUncovered": 23
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxh8QAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                    },
+                    "Id": "01p5w00000KiFOtAAN",
+                    "Name": "cloneCampaignControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        21,
+                        23,
+                        24,
+                        28,
+                        33
+                    ],
+                    "uncoveredLines": [
+                        4,
+                        9,
+                        10,
+                        11,
+                        12,
+                        14,
+                        16,
+                        26,
+                        35,
+                        36,
+                        38,
+                        40,
+                        42,
+                        43,
+                        45,
+                        46,
+                        47,
+                        50,
+                        52,
+                        55,
+                        57,
+                        58,
+                        64,
+                        68
+                    ]
+                },
+                "TestMethodName": "getCampaignsCountTest",
+                "NumLinesCovered": 5,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w000009CHmzAAG"
+                    },
+                    "Id": "01p5w000009CHmzAAG",
+                    "Name": "cloneCampaignController"
+                },
+                "NumLinesUncovered": 24
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxh8RAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                    },
+                    "Id": "01p5w00000KiFOtAAN",
+                    "Name": "cloneCampaignControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        9,
+                        10,
+                        11,
+                        14,
+                        16,
+                        21,
+                        33
+                    ],
+                    "uncoveredLines": [
+                        12,
+                        23,
+                        24,
+                        26,
+                        28,
+                        35,
+                        36,
+                        38,
+                        40,
+                        42,
+                        43,
+                        45,
+                        46,
+                        47,
+                        50,
+                        52,
+                        55,
+                        57,
+                        58,
+                        64,
+                        68
+                    ]
+                },
+                "TestMethodName": "getCampaignsListTest",
+                "NumLinesCovered": 8,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w000009CHmzAAG"
+                    },
+                    "Id": "01p5w000009CHmzAAG",
+                    "Name": "cloneCampaignController"
+                },
+                "NumLinesUncovered": 21
+            }
+        ],
+        "summary": {
+            "totalLines": 29,
+            "coveredLines": 16,
+            "testRunCoverage": "55%",
+            "orgWideCoverage": "9%"
+        }
+    }
+}

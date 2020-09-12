@@ -1,0 +1,43 @@
+=== Test Reports
+FORMAT  FILE
+──────  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     c:\Users\Mikey\Dropbox (Eversource LiquidHub)\vscode-workspace\_LWCCloneCampaigns\.sfdx\tools\testresults\apex\test-result.txt
+txt     c:\Users\Mikey\Dropbox (Eversource LiquidHub)\vscode-workspace\_LWCCloneCampaigns\.sfdx\tools\testresults\apex\test-run-id.txt
+junit   c:\Users\Mikey\Dropbox (Eversource LiquidHub)\vscode-workspace\_LWCCloneCampaigns\.sfdx\tools\testresults\apex\test-result-7075w0000BYIiBb-junit.xml
+json    c:\Users\Mikey\Dropbox (Eversource LiquidHub)\vscode-workspace\_LWCCloneCampaigns\.sfdx\tools\testresults\apex\test-result-7075w0000BYIiBb.json
+json    c:\Users\Mikey\Dropbox (Eversource LiquidHub)\vscode-workspace\_LWCCloneCampaigns\.sfdx\tools\testresults\apex\test-result-codecoverage.json
+
+=== Apex Code Coverage
+ID                  NAME                     % COVERED  UNCOVERED LINES
+──────────────────  ───────────────────────  ─────────  ───────────────
+01p5w000009CHmzAAG  cloneCampaignController  90%        55,57,58
+
+=== Test Results
+TEST NAME                                               OUTCOME  MESSAGE  RUNTIME (MS)
+──────────────────────────────────────────────────────  ───────  ───────  ────────────
+cloneCampaignControllerTest.cloneSelectedCampaignsTest  Pass              476
+cloneCampaignControllerTest.getCampaignsCountTest       Pass              146
+cloneCampaignControllerTest.getCampaignsListTest        Pass              146
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ─────────────────────────────────────────────────────
+Outcome              Passed
+Tests Ran            3
+Passing              3
+Failing              0
+Skipped              0
+Pass Rate            100%
+Fail Rate            0%
+Test Start Time      Sep 12, 2020 1:01 PM
+Test Execution Time  768 ms
+Test Total Time      768 ms
+Command Time         4891 ms
+Hostname             https://curious-bear-mff7sb-dev-ed.my.salesforce.com
+Org Id               00D5w000003I6u6EAC
+Username             mikeyma1960@curious-bear-mff7sb.com
+Test Run Id          7075w0000BYIiBb
+User Id              0055w00000BjSjTAAV
+Test Run Coverage    89%
+Org Wide Coverage    15%
+

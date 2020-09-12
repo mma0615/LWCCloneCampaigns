@@ -1,0 +1,952 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 2,
+        "passing": 2,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Sep 12, 2020 12:03 PM",
+        "testExecutionTime": "48 ms",
+        "testTotalTime": "48 ms",
+        "commandTime": "3855 ms",
+        "hostname": "https://curious-bear-mff7sb-dev-ed.my.salesforce.com",
+        "orgId": "00D5w000003I6u6EAC",
+        "username": "mikeyma1960@curious-bear-mff7sb.com",
+        "testRunId": "7075w0000BYIh0I",
+        "userId": "0055w00000BjSjTAAV",
+        "testRunCoverage": "68%",
+        "orgWideCoverage": "24%"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M5w000009t0jbEAA"
+            },
+            "Id": "07M5w000009t0jbEAA",
+            "QueueItemId": "7095w000000alI5AAI",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7075w0000BYIh0IAQT",
+            "MethodName": "getCampaignsCountTest",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                },
+                "Id": "01p5w00000KiFOtAAN",
+                "Name": "cloneCampaignControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 36,
+            "FullName": "cloneCampaignControllerTest.getCampaignsCountTest"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v49.0/tooling/sobjects/ApexTestResult/07M5w000009t0jcEAA"
+            },
+            "Id": "07M5w000009t0jcEAA",
+            "QueueItemId": "7095w000000alI5AAI",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7075w0000BYIh0IAQT",
+            "MethodName": "getCampaignsListTest",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                },
+                "Id": "01p5w00000KiFOtAAN",
+                "Name": "cloneCampaignControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 12,
+            "FullName": "cloneCampaignControllerTest.getCampaignsListTest"
+        }
+    ],
+    "coverage": {
+        "coverage": [
+            {
+                "id": "01p5w00000K6oAOAAZ",
+                "name": "AccountController",
+                "totalLines": 4,
+                "lines": {
+                    "3": 1,
+                    "4": 1,
+                    "8": 1,
+                    "9": 1
+                },
+                "totalCovered": 4,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01q5w000000ePu8AAE",
+                "name": "AccountAddressTrigger",
+                "totalLines": 5,
+                "lines": {
+                    "3": 1,
+                    "4": 1,
+                    "5": 1,
+                    "6": 0,
+                    "8": 0
+                },
+                "totalCovered": 3,
+                "coveredPercent": 60
+            },
+            {
+                "id": "01q5w000000ePv1AAE",
+                "name": "RestrictContactByName",
+                "totalLines": 3,
+                "lines": {
+                    "4": 1,
+                    "5": 1,
+                    "6": 1
+                },
+                "totalCovered": 3,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01p5w00000K6oAsAAJ",
+                "name": "ContactController",
+                "totalLines": 8,
+                "lines": {
+                    "3": 1,
+                    "4": 1,
+                    "14": 1,
+                    "15": 1,
+                    "16": 1,
+                    "19": 1,
+                    "26": 1,
+                    "27": 1
+                },
+                "totalCovered": 8,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01p5w00000KiF0DAAV",
+                "name": "TemperatureConverter",
+                "totalLines": 3,
+                "lines": {
+                    "4": 1,
+                    "5": 1,
+                    "6": 1
+                },
+                "totalCovered": 3,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01p5w00000KiF8CAAV",
+                "name": "VerifyDate",
+                "totalLines": 13,
+                "lines": {
+                    "4": 1,
+                    "6": 1,
+                    "7": 1,
+                    "9": 1,
+                    "14": 1,
+                    "16": 1,
+                    "19": 1,
+                    "20": 1,
+                    "21": 1,
+                    "25": 1,
+                    "26": 1,
+                    "27": 1,
+                    "28": 1
+                },
+                "totalCovered": 13,
+                "coveredPercent": 100
+            },
+            {
+                "id": "01p5w000009CHmzAAG",
+                "name": "cloneCampaignController",
+                "totalLines": 31,
+                "lines": {
+                    "4": 1,
+                    "9": 1,
+                    "10": 1,
+                    "11": 1,
+                    "12": 1,
+                    "14": 1,
+                    "16": 1,
+                    "21": 1,
+                    "23": 1,
+                    "24": 1,
+                    "26": 1,
+                    "28": 1,
+                    "33": 0,
+                    "35": 0,
+                    "36": 0,
+                    "38": 0,
+                    "40": 0,
+                    "42": 0,
+                    "43": 0,
+                    "45": 0,
+                    "46": 0,
+                    "47": 0,
+                    "50": 0,
+                    "52": 0,
+                    "54": 0,
+                    "57": 0,
+                    "59": 0,
+                    "60": 0,
+                    "65": 0,
+                    "70": 0,
+                    "74": 0
+                },
+                "totalCovered": 12,
+                "coveredPercent": 39
+            }
+        ],
+        "records": [
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauGAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB4AAJ"
+                    },
+                    "Id": "01p5w00000K6oB4AAJ",
+                    "Name": "TestAccountController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        3,
+                        4
+                    ],
+                    "uncoveredLines": [
+                        8,
+                        9
+                    ]
+                },
+                "TestMethodName": "getAccountList",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oAOAAZ"
+                    },
+                    "Id": "01p5w00000K6oAOAAZ",
+                    "Name": "AccountController"
+                },
+                "NumLinesUncovered": 2
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauHAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB4AAJ"
+                    },
+                    "Id": "01p5w00000K6oB4AAJ",
+                    "Name": "TestAccountController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        3,
+                        4,
+                        5
+                    ],
+                    "uncoveredLines": [
+                        6,
+                        8
+                    ]
+                },
+                "TestMethodName": "getAccountList",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexTrigger/01q5w000000ePu8AAE"
+                    },
+                    "Id": "01q5w000000ePu8AAE",
+                    "Name": "AccountAddressTrigger"
+                },
+                "NumLinesUncovered": 2
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauIAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB4AAJ"
+                    },
+                    "Id": "01p5w00000K6oB4AAJ",
+                    "Name": "TestAccountController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        3,
+                        8,
+                        9
+                    ],
+                    "uncoveredLines": [
+                        4
+                    ]
+                },
+                "TestMethodName": "getSingleAccount",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oAOAAZ"
+                    },
+                    "Id": "01p5w00000K6oAOAAZ",
+                    "Name": "AccountController"
+                },
+                "NumLinesUncovered": 1
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauJAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB4AAJ"
+                    },
+                    "Id": "01p5w00000K6oB4AAJ",
+                    "Name": "TestAccountController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        3,
+                        4,
+                        5
+                    ],
+                    "uncoveredLines": [
+                        6,
+                        8
+                    ]
+                },
+                "TestMethodName": "getSingleAccount",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexTrigger/01q5w000000ePu8AAE"
+                    },
+                    "Id": "01q5w000000ePu8AAE",
+                    "Name": "AccountAddressTrigger"
+                },
+                "NumLinesUncovered": 2
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauLAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB5AAJ"
+                    },
+                    "Id": "01p5w00000K6oB5AAJ",
+                    "Name": "TestContactController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5
+                    ],
+                    "uncoveredLines": [
+                        6
+                    ]
+                },
+                "TestMethodName": "findContacts",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexTrigger/01q5w000000ePv1AAE"
+                    },
+                    "Id": "01q5w000000ePv1AAE",
+                    "Name": "RestrictContactByName"
+                },
+                "NumLinesUncovered": 1
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauMAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB5AAJ"
+                    },
+                    "Id": "01p5w00000K6oB5AAJ",
+                    "Name": "TestContactController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5
+                    ],
+                    "uncoveredLines": [
+                        6
+                    ]
+                },
+                "TestMethodName": "getSingleContact",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexTrigger/01q5w000000ePv1AAE"
+                    },
+                    "Id": "01q5w000000ePv1AAE",
+                    "Name": "RestrictContactByName"
+                },
+                "NumLinesUncovered": 1
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauNAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB5AAJ"
+                    },
+                    "Id": "01p5w00000K6oB5AAJ",
+                    "Name": "TestContactController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        14,
+                        15,
+                        16,
+                        19
+                    ],
+                    "uncoveredLines": [
+                        3,
+                        4,
+                        26,
+                        27
+                    ]
+                },
+                "TestMethodName": "findContacts",
+                "NumLinesCovered": 4,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oAsAAJ"
+                    },
+                    "Id": "01p5w00000K6oAsAAJ",
+                    "Name": "ContactController"
+                },
+                "NumLinesUncovered": 4
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauOAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB5AAJ"
+                    },
+                    "Id": "01p5w00000K6oB5AAJ",
+                    "Name": "TestContactController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5
+                    ],
+                    "uncoveredLines": [
+                        6
+                    ]
+                },
+                "TestMethodName": "getContactList",
+                "NumLinesCovered": 2,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexTrigger/01q5w000000ePv1AAE"
+                    },
+                    "Id": "01q5w000000ePv1AAE",
+                    "Name": "RestrictContactByName"
+                },
+                "NumLinesUncovered": 1
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauPAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB5AAJ"
+                    },
+                    "Id": "01p5w00000K6oB5AAJ",
+                    "Name": "TestContactController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        3,
+                        4,
+                        14
+                    ],
+                    "uncoveredLines": [
+                        15,
+                        16,
+                        19,
+                        26,
+                        27
+                    ]
+                },
+                "TestMethodName": "getContactList",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oAsAAJ"
+                    },
+                    "Id": "01p5w00000K6oAsAAJ",
+                    "Name": "ContactController"
+                },
+                "NumLinesUncovered": 5
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauQAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oB5AAJ"
+                    },
+                    "Id": "01p5w00000K6oB5AAJ",
+                    "Name": "TestContactController"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        3,
+                        14,
+                        26,
+                        27
+                    ],
+                    "uncoveredLines": [
+                        4,
+                        15,
+                        16,
+                        19
+                    ]
+                },
+                "TestMethodName": "getSingleContact",
+                "NumLinesCovered": 4,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000K6oAsAAJ"
+                    },
+                    "Id": "01p5w00000K6oAsAAJ",
+                    "Name": "ContactController"
+                },
+                "NumLinesUncovered": 4
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxau9AAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0IAAV"
+                    },
+                    "Id": "01p5w00000KiF0IAAV",
+                    "Name": "TemperatureConverterTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "testWarmTemp",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0DAAV"
+                    },
+                    "Id": "01p5w00000KiF0DAAV",
+                    "Name": "TemperatureConverter"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxau6AAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0IAAV"
+                    },
+                    "Id": "01p5w00000KiF0IAAV",
+                    "Name": "TemperatureConverterTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "testFreezingPoint",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0DAAV"
+                    },
+                    "Id": "01p5w00000KiF0DAAV",
+                    "Name": "TemperatureConverter"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxau7AAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0IAAV"
+                    },
+                    "Id": "01p5w00000KiF0IAAV",
+                    "Name": "TemperatureConverterTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "testNegativeTemp",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0DAAV"
+                    },
+                    "Id": "01p5w00000KiF0DAAV",
+                    "Name": "TemperatureConverter"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxau8AAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0IAAV"
+                    },
+                    "Id": "01p5w00000KiF0IAAV",
+                    "Name": "TemperatureConverterTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "testBoilingPoint",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF0DAAV"
+                    },
+                    "Id": "01p5w00000KiF0DAAV",
+                    "Name": "TemperatureConverter"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxau1AAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF8lAAF"
+                    },
+                    "Id": "01p5w00000KiF8lAAF",
+                    "Name": "TestVerifyDate"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        6,
+                        9,
+                        14,
+                        16,
+                        19,
+                        20,
+                        25,
+                        26,
+                        27,
+                        28
+                    ],
+                    "uncoveredLines": [
+                        7,
+                        21
+                    ]
+                },
+                "TestMethodName": "testGreater30Days",
+                "NumLinesCovered": 11,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF8CAAV"
+                    },
+                    "Id": "01p5w00000KiF8CAAV",
+                    "Name": "VerifyDate"
+                },
+                "NumLinesUncovered": 2
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxau2AAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF8lAAF"
+                    },
+                    "Id": "01p5w00000KiF8lAAF",
+                    "Name": "TestVerifyDate"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        6,
+                        7,
+                        14,
+                        16,
+                        19,
+                        20,
+                        21,
+                        25
+                    ],
+                    "uncoveredLines": [
+                        9,
+                        26,
+                        27,
+                        28
+                    ]
+                },
+                "TestMethodName": "testWithin30Days",
+                "NumLinesCovered": 9,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiF8CAAV"
+                    },
+                    "Id": "01p5w00000KiF8CAAV",
+                    "Name": "VerifyDate"
+                },
+                "NumLinesUncovered": 4
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000GxauBAAR"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFCYAA3"
+                    },
+                    "Id": "01p5w00000KiFCYAA3",
+                    "Name": "TestRestrictContactByName"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5,
+                        6
+                    ],
+                    "uncoveredLines": []
+                },
+                "TestMethodName": "TestRestrictContactByName",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexTrigger/01q5w000000ePv1AAE"
+                    },
+                    "Id": "01q5w000000ePv1AAE",
+                    "Name": "RestrictContactByName"
+                },
+                "NumLinesUncovered": 0
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxh7bAAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                    },
+                    "Id": "01p5w00000KiFOtAAN",
+                    "Name": "cloneCampaignControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        9,
+                        10,
+                        11,
+                        12,
+                        14,
+                        16,
+                        21
+                    ],
+                    "uncoveredLines": [
+                        23,
+                        24,
+                        26,
+                        28,
+                        33,
+                        35,
+                        36,
+                        38,
+                        40,
+                        42,
+                        43,
+                        45,
+                        46,
+                        47,
+                        50,
+                        52,
+                        54,
+                        57,
+                        59,
+                        60,
+                        65,
+                        70,
+                        74
+                    ]
+                },
+                "TestMethodName": "getCampaignsListTest",
+                "NumLinesCovered": 8,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w000009CHmzAAG"
+                    },
+                    "Id": "01p5w000009CHmzAAG",
+                    "Name": "cloneCampaignController"
+                },
+                "NumLinesUncovered": 23
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v49.0/tooling/sobjects/ApexCodeCoverage/7145w00000Gxh7cAAB"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w00000KiFOtAAN"
+                    },
+                    "Id": "01p5w00000KiFOtAAN",
+                    "Name": "cloneCampaignControllerTest"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        21,
+                        23,
+                        24,
+                        26,
+                        28
+                    ],
+                    "uncoveredLines": [
+                        4,
+                        9,
+                        10,
+                        11,
+                        12,
+                        14,
+                        16,
+                        33,
+                        35,
+                        36,
+                        38,
+                        40,
+                        42,
+                        43,
+                        45,
+                        46,
+                        47,
+                        50,
+                        52,
+                        54,
+                        57,
+                        59,
+                        60,
+                        65,
+                        70,
+                        74
+                    ]
+                },
+                "TestMethodName": "getCampaignsCountTest",
+                "NumLinesCovered": 5,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v49.0/tooling/sobjects/ApexClass/01p5w000009CHmzAAG"
+                    },
+                    "Id": "01p5w000009CHmzAAG",
+                    "Name": "cloneCampaignController"
+                },
+                "NumLinesUncovered": 26
+            }
+        ],
+        "summary": {
+            "totalLines": 67,
+            "coveredLines": 46,
+            "testRunCoverage": "68%",
+            "orgWideCoverage": "24%"
+        }
+    }
+}

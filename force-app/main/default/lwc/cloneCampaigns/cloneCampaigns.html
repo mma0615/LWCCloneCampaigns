@@ -1,0 +1,10 @@
+<template>  
+  <lightning-card>  
+    <c-campaign-list currentpage={page} onrecordsload={handleRecordsLoad} pagesize={pagesize} onfirst={handleFirst} ></c-campaign-list>  
+    <div class="slds-var-m-around_medium">  
+      <c-page-buttons onprevious={handlePrevious} onnext={handleNext} onfirst={handleFirst}  
+          onlast={handleLast} currentpage={page} totalrecords={totalrecords} pagesize={pagesize}>  
+      </c-page-buttons>  
+    </div>  
+  </lightning-card>  
+</template>

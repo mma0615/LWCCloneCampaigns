@@ -1,0 +1,317 @@
+[
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588340792925,
+            "changeTime": 1588340792925,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588340792925,
+            "changeTime": 1588340792925,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588351379877,
+            "changeTime": 1588351379877,
+            "contentHash": "a21009004cd572d890d65233421722a21fcb20a4",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\aura",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588340792926,
+            "changeTime": 1588340792926,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588351379878,
+            "changeTime": 1588351379878,
+            "contentHash": "df0bd38e698521523c19cf2db1d24acc33caa8d3",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\classes\\cloneCampaignController.cls",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\classes\\cloneCampaignController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1181,
+            "modifiedTime": 1588351592208,
+            "changeTime": 1588351592208,
+            "contentHash": "390f4765ee0f8307206489cdc0cb001ce6a79fbb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\classes\\cloneCampaignController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\classes\\cloneCampaignController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1588351379879,
+            "changeTime": 1588351379879,
+            "contentHash": "b14927db8433719a949fb732f84be0e1c5bd19cd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588351245680,
+            "changeTime": 1588351245680,
+            "contentHash": "92e13b16e1f06ec405bb64e9ed08551ce25e5b2d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588351245684,
+            "changeTime": 1588351245684,
+            "contentHash": "66ba6cf7391395619b632d08fd937fb82786cdbd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.html",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1680,
+            "modifiedTime": 1588353888763,
+            "changeTime": 1588353888763,
+            "contentHash": "b8e29ac11c818aef391780c4da31c3c0ff121f9d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2504,
+            "modifiedTime": 1588353774169,
+            "changeTime": 1588353774169,
+            "contentHash": "046160ce6f842658064ef6060dc4cfdf594910eb",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.js-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 208,
+            "modifiedTime": 1588351245684,
+            "changeTime": 1588351245684,
+            "contentHash": "c04516a694799f5b63949274cfff3c09134ff3be",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588349473115,
+            "changeTime": 1588349473115,
+            "contentHash": "fc1465cea9e0eb42b925dd7ff033558ddb9c13bd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns\\cloneCampaigns.html",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns\\cloneCampaigns.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 472,
+            "modifiedTime": 1588351308476,
+            "changeTime": 1588351308476,
+            "contentHash": "9ee8f9c06ccaa5b9a3b3b55054ab7a9cc3f9256b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns\\cloneCampaigns.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns\\cloneCampaigns.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 857,
+            "modifiedTime": 1588349626280,
+            "changeTime": 1588349626280,
+            "contentHash": "ac92c0d33a17c5786c9a76d192c71c5844ccf059",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns\\cloneCampaigns.js-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\cloneCampaigns\\cloneCampaigns.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 376,
+            "modifiedTime": 1588353989922,
+            "changeTime": 1588353989922,
+            "contentHash": "039afa607315fe9196f030ede11e5ebe28e5b6cd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588350965671,
+            "changeTime": 1588350965671,
+            "contentHash": "7b944e0f8f61c7f3503c758aa724f5406d561378",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons\\pageButtons.html",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons\\pageButtons.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1080,
+            "modifiedTime": 1588351254469,
+            "changeTime": 1588351254469,
+            "contentHash": "99d6e3a3d7bcc14af546b0f310586276c83d9b4d",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons\\pageButtons.js",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons\\pageButtons.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1002,
+            "modifiedTime": 1588351258389,
+            "changeTime": 1588351258389,
+            "contentHash": "f4000f8e9b2a766dca22b3769aaf18a984edf2dd",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons\\pageButtons.js-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\pageButtons\\pageButtons.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 208,
+            "modifiedTime": 1588350965671,
+            "changeTime": 1588350965671,
+            "contentHash": "c04516a694799f5b63949274cfff3c09134ff3be",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "c:\\vscode-workspace\\_LWCCloneCampaigns",
+        {
+            "state": "u",
+            "sourcePath": "c:\\vscode-workspace\\_LWCCloneCampaigns",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1588342280679,
+            "changeTime": 1588342548651,
+            "contentHash": "ac8ebe8fbf8686ccd99613333554bc80e3ff17df",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

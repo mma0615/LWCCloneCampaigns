@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-09-12T12:51:24-07:00" hostname="https://curious-bear-mff7sb-dev-ed.my.salesforce.com" tests="3" failures="3"  errors="0"  time="0.05">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="3"/>
+            <property name="passing" value="0"/>
+            <property name="failing" value="3"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="0%"/>
+            <property name="failRate" value="100%"/>
+            <property name="testStartTime" value="Sep 12, 2020 12:51 PM"/>
+            <property name="testExecutionTime" value="0.05 s"/>
+            <property name="testTotalTime" value="0.05 s"/>
+            <property name="commandTime" value="4.27 s"/>
+            <property name="hostname" value="https://curious-bear-mff7sb-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D5w000003I6u6EAC"/>
+            <property name="username" value="mikeyma1960@curious-bear-mff7sb.com"/>
+            <property name="testRunId" value="7075w0000BYId56"/>
+            <property name="userId" value="0055w00000BjSjTAAV"/>
+            <property name="testRunCoverage" value="55%"/>
+            <property name="orgWideCoverage" value="9%"/>
+        </properties>
+        <testcase name="cloneSelectedCampaignsTest" classname="cloneCampaignControllerTest" time="0.03">
+            <failure message="System.AssertException: Assertion Failed: Expected: Nothing to Clone..., Actual: Successfully Cloned..."><![CDATA[Class.cloneCampaignControllerTest.cloneSelectedCampaignsTest: line 51, column 1]]></failure>
+        </testcase>
+        <testcase name="getCampaignsCountTest" classname="cloneCampaignControllerTest" time="0.01">
+            <failure message="System.AssertException: Assertion Failed: Expected: 20, Actual: 0"><![CDATA[Class.cloneCampaignControllerTest.getCampaignsCountTest: line 35, column 1]]></failure>
+        </testcase>
+        <testcase name="getCampaignsListTest" classname="cloneCampaignControllerTest" time="0.01">
+            <failure message="System.AssertException: Assertion Failed: Expected: List: 20, Actual: List: 0"><![CDATA[Class.cloneCampaignControllerTest.getCampaignsListTest: line 25, column 1]]></failure>
+        </testcase>
+    </testsuite>
+</testsuites>

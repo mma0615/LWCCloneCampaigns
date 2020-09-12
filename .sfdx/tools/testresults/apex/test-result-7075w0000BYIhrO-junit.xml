@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-09-12T13:00:01-07:00" hostname="https://curious-bear-mff7sb-dev-ed.my.salesforce.com" tests="3" failures="1"  errors="0"  time="0.72">
+        <properties>
+            <property name="outcome" value="Failed"/>
+            <property name="testsRan" value="3"/>
+            <property name="passing" value="2"/>
+            <property name="failing" value="1"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="67%"/>
+            <property name="failRate" value="33%"/>
+            <property name="testStartTime" value="Sep 12, 2020 1:00 PM"/>
+            <property name="testExecutionTime" value="0.72 s"/>
+            <property name="testTotalTime" value="0.72 s"/>
+            <property name="commandTime" value="3.99 s"/>
+            <property name="hostname" value="https://curious-bear-mff7sb-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D5w000003I6u6EAC"/>
+            <property name="username" value="mikeyma1960@curious-bear-mff7sb.com"/>
+            <property name="testRunId" value="7075w0000BYIhrO"/>
+            <property name="userId" value="0055w00000BjSjTAAV"/>
+            <property name="testRunCoverage" value="62%"/>
+            <property name="orgWideCoverage" value="11%"/>
+        </properties>
+        <testcase name="cloneSelectedCampaignsTest" classname="cloneCampaignControllerTest" time="0.04">
+            <failure message="System.AssertException: Assertion Failed: Expected: Nothing to Clone..., Actual: Successfully Cloned..."><![CDATA[Class.cloneCampaignControllerTest.cloneSelectedCampaignsTest: line 53, column 1]]></failure>
+        </testcase>
+        <testcase name="getCampaignsCountTest" classname="cloneCampaignControllerTest" time="0.48">
+        </testcase>
+        <testcase name="getCampaignsListTest" classname="cloneCampaignControllerTest" time="0.19">
+        </testcase>
+    </testsuite>
+</testsuites>

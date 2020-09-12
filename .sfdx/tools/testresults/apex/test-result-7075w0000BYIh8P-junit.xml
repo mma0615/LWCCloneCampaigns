@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-09-12T12:09:02-07:00" hostname="https://curious-bear-mff7sb-dev-ed.my.salesforce.com" tests="3" failures="0"  errors="0"  time="0.08">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="3"/>
+            <property name="passing" value="3"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Sep 12, 2020 12:09 PM"/>
+            <property name="testExecutionTime" value="0.08 s"/>
+            <property name="testTotalTime" value="0.08 s"/>
+            <property name="commandTime" value="2.97 s"/>
+            <property name="hostname" value="https://curious-bear-mff7sb-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D5w000003I6u6EAC"/>
+            <property name="username" value="mikeyma1960@curious-bear-mff7sb.com"/>
+            <property name="testRunId" value="7075w0000BYIh8P"/>
+            <property name="userId" value="0055w00000BjSjTAAV"/>
+            <property name="testRunCoverage" value="77%"/>
+            <property name="orgWideCoverage" value="27%"/>
+        </properties>
+        <testcase name="cloneSelectedCampaignsTest" classname="cloneCampaignControllerTest" time="0.04">
+        </testcase>
+        <testcase name="getCampaignsCountTest" classname="cloneCampaignControllerTest" time="0.01">
+        </testcase>
+        <testcase name="getCampaignsListTest" classname="cloneCampaignControllerTest" time="0.02">
+        </testcase>
+    </testsuite>
+</testsuites>
