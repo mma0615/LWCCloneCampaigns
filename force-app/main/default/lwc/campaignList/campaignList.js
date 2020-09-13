@@ -14,7 +14,10 @@ export default class RecordList extends LightningElement
     @track bShowModal = false;  
     totalpages;  
     localCurrentPage = null;  
-    isSearchChangeExecuted = false;  
+    isSearchChangeExecuted = false;
+    toastTitle;
+    toastMessage;
+    toastVariant; 
     // not yet implemented  
     pageSizeOptions =  
         [  
@@ -150,27 +153,69 @@ export default class RecordList extends LightningElement
         cloneCampaigns({selectedCampaigns: this.selectedCampaigns})
             .then((result) => 
             {
-                this.dispatchEvent(
-                    new ShowToastEvent({
-                        title: 'Success',
-                        message: result,
-                        variant: 'success'
-                        })
-                    );
+                if (result === ('Successfully Cloned...' ) )
+                {
+                    this.dispatchEvent(
+                        new ShowToastEvent({
+                            title: 'Success',
+                            message: result,
+                            variant: 'Success'
+                            })
+                        );
+                }
+                else
+                {
+                    this.dispatchEvent(
+                        new ShowToastEvent({
+                            title: 'Info',
+                            message: result,
+                            variant: 'Info'
+                            })
+                        );
+                }
+                
             })
             .catch((error) => 
             {
                 this.dispatchEvent(
                     new ShowToastEvent({
-                        title: 'Error',
+                        title: 'Error:',
                         message: error,
                         variant: 'Error'
                         })
                     );
             });
-
         
     }
 
 
-}  
+} 
+
+/*
+        toastTitle = 'Success';
+        toastMessage;
+        toastVariant = 'Success';
+
+        cloneCampaigns({selectedCampaigns: this.selectedCampaigns})
+            .then((result) => 
+            {
+                this.toastTitle = 'Success';
+                this.toastMessage = result;
+                this.toastVariant = 'Success';
+            })
+            .catch((error) => 
+            {
+                this.toastTitle = 'Error';
+                this.toastMessage = error;
+                this.toastVariant = 'Error';
+            });
+
+
+            this.dispatchEvent(
+                new ShowToastEvent({
+                    title: this.toastTitle,
+                    message: this.toastMessage,
+                    variant: this.toastVariant
+                    })
+                );
+*/

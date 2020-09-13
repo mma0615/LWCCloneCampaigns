@@ -68,14 +68,14 @@ public with sharing class cloneCampaignController
             catch( Exception ex )
             {
                 System.debug( 'CAMPAIGN CLONE FAILED : ' + ex.getMessage() );
-                action = 'Campaign Clone Failed : ' + ex.getMessage();
+                action = 'Campaigns Cloning Failed : ' + ex.getMessage();
                 Database.rollback( sp );
             }
 
         }
         else 
         {
-            action = 'Nothing to Clone...';
+            action = 'No Campaign(s) selected for cloning...';
         }
 
         return action;  
