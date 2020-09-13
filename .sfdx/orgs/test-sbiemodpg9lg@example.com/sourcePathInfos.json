@@ -210,10 +210,10 @@
         "state": "u",
         "isDirectory": false,
         "isMetadataFile": false,
-        "size": 6989,
-        "modifiedTime": 1600024893673,
-        "changeTime": 1600024893673,
-        "contentHash": "caf7fb778a565ffc8f8cee1d2db17739a5eab7fc"
+        "size": 6986,
+        "modifiedTime": 1600029043441,
+        "changeTime": 1600029043441,
+        "contentHash": "759c84e2e128cd9e13e2f3dd3ac9710b4b3e7cb9"
     },
     "c:\\Users\\Mikey\\Dropbox (Eversource LiquidHub)\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.js-meta.xml": {
         "sourcePath": "c:\\Users\\Mikey\\Dropbox (Eversource LiquidHub)\\vscode-workspace\\_LWCCloneCampaigns\\force-app\\main\\default\\lwc\\campaignList\\campaignList.js-meta.xml",

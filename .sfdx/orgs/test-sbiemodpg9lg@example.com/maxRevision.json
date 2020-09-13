@@ -1,5 +1,5 @@
 {
-    "serverMaxRevisionCounter": 179,
+    "serverMaxRevisionCounter": 183,
     "sourceMembers": {
         "Profile__Admin": {
             "serverRevisionCounter": 22,
@@ -26,8 +26,8 @@
             "isNameObsolete": false
         },
         "LightningComponentBundle__campaignList": {
-            "serverRevisionCounter": 176,
-            "lastRetrievedFromServer": 176,
+            "serverRevisionCounter": 180,
+            "lastRetrievedFromServer": 180,
             "memberType": "LightningComponentBundle",
             "isNameObsolete": false
         },
@@ -44,20 +44,20 @@
             "isNameObsolete": false
         },
         "LightningComponentResource__campaignList/campaignList.js": {
-            "serverRevisionCounter": 177,
-            "lastRetrievedFromServer": 177,
+            "serverRevisionCounter": 181,
+            "lastRetrievedFromServer": 181,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         },
         "LightningComponentResource__campaignList/campaignList.html": {
-            "serverRevisionCounter": 178,
-            "lastRetrievedFromServer": 178,
+            "serverRevisionCounter": 182,
+            "lastRetrievedFromServer": 182,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         },
         "LightningComponentResource__campaignList/campaignList.js-meta.xml": {
-            "serverRevisionCounter": 179,
-            "lastRetrievedFromServer": 179,
+            "serverRevisionCounter": 183,
+            "lastRetrievedFromServer": 183,
             "memberType": "LightningComponentResource",
             "isNameObsolete": false
         },

@@ -153,7 +153,7 @@ export default class RecordList extends LightningElement
         cloneCampaigns({selectedCampaigns: this.selectedCampaigns})
             .then((result) => 
             {
-                if (result === ('Successfully Cloned...' ) )
+                if (result.indexOf('Successfully') >= 0 )
                 {
                     this.dispatchEvent(
                         new ShowToastEvent({
