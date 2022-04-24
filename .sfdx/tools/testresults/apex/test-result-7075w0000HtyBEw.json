@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Sun Apr 24 2022 10:07:53 AM",
+    "testExecutionTimeInMs": 1061,
+    "testTotalTimeInMs": 1061,
+    "commandTimeInMs": 358,
+    "hostname": "https://curious-bear-mff7sb-dev-ed.my.salesforce.com",
+    "orgId": "00D5w000003I6u6EAC",
+    "username": "mikeyma1960@curious-bear-mff7sb.com",
+    "testRunId": "7075w0000HtyBEw",
+    "userId": "0055w00000BjSjTAAV",
+    "totalLines": 29,
+    "coveredLines": 7,
+    "testRunCoverage": "24%",
+    "orgWideCoverage": "1%"
+  },
+  "tests": [
+    {
+      "id": "07M5w00000BKuk9EAD",
+      "queueItemId": "7095w000000r6hbAAA",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7075w0000HtyBEwAQM",
+      "methodName": "getCampaignsListTest",
+      "outcome": "Pass",
+      "apexLogId": "07L5w00005WZcwcEAD",
+      "apexClass": {
+        "id": "01p5w00000KiFOtAAN",
+        "name": "cloneCampaignControllerTest",
+        "namespacePrefix": null,
+        "fullName": "cloneCampaignControllerTest"
+      },
+      "runTime": 1061,
+      "testTimestamp": "2022-04-24T17:07:53.000+0000",
+      "fullName": "cloneCampaignControllerTest.getCampaignsListTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "cloneCampaignController",
+          "apexClassOrTriggerId": "01p5w000009CHmzAAG",
+          "apexTestClassId": "01p5w00000KiFOtAAN",
+          "apexTestMethodName": "getCampaignsListTest",
+          "numLinesCovered": 7,
+          "numLinesUncovered": 22,
+          "percentage": "24%",
+          "coverage": {
+            "coveredLines": [
+              19,
+              24,
+              25,
+              26,
+              27,
+              29,
+              31
+            ],
+            "uncoveredLines": [
+              36,
+              38,
+              39,
+              41,
+              43,
+              48,
+              50,
+              51,
+              53,
+              55,
+              57,
+              58,
+              59,
+              60,
+              61,
+              64,
+              66,
+              69,
+              71,
+              72,
+              78,
+              81
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p5w000009CHmzAAG",
+      "name": "cloneCampaignController",
+      "type": "ApexClass",
+      "numLinesCovered": 7,
+      "numLinesUncovered": 22,
+      "percentage": "24%",
+      "coveredLines": [
+        19,
+        24,
+        25,
+        26,
+        27,
+        29,
+        31
+      ],
+      "uncoveredLines": [
+        36,
+        38,
+        39,
+        41,
+        43,
+        48,
+        50,
+        51,
+        53,
+        55,
+        57,
+        58,
+        59,
+        60,
+        61,
+        64,
+        66,
+        69,
+        71,
+        72,
+        78,
+        81
+      ]
+    }
+  ]
+}
