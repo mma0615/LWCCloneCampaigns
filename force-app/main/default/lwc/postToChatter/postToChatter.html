@@ -7,68 +7,81 @@
                         <lightning-input type="search" 
                             onchange={handleKeyChange} 
                             class="slds-var-m-bottom_small" 
-                            label="Account Search"  
+                            label={searchHeader}  
                             value={searchKey}>
                         </lightning-input>
                     </div>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <div class="slds-var-m-around_medium">
-                        <lightning-input type="text" 
-                            class="slds-var-m-bottom_small" 
-                            label="Enter Post Content"  
-                            value={postMessage}>
-                        </lightning-input>
-                        </br>
-                        <div class="slds-col">
-                            <span>
-                                <lightning-button label="Post To Chatter" 
-                                    onclick={postSelectedRecords} 
-                                    style="margin-left: 40%" 
-                                    variant="brand">
-                                </lightning-button>
-                            </span>
-                        </div>
-                    </div>
-                </td>    
-            </tr>
         </table>
-        <br/>
-        
-        <table class="slds-table slds-table_cell-buffer slds-table_bordered">
-            <thead>
-                <tr class="slds-line-height_reset">
-                    <th class="" scope="col">
-                        <div class="slds-truncate">
-                            <lightning-input onchange={allSelected} 
-                                type="checkbox">
+
+        <template if:true={isValidSearch}>
+            <table>
+                <tr>
+                    <td>
+                        <div class="slds-var-m-around_medium">
+                            <lightning-input type="text"
+                                onchange={handlePostMessage}
+                                class="slds-var-m-bottom_small" 
+                                label="Enter Post Content"  
+                                value={postMessage}>
                             </lightning-input>
+                            </br>
+                            <div class="slds-col">
+                                <span>
+                                    <lightning-button label="Post To Chatter" 
+                                        onclick={postSelectedRecords} 
+                                        style="margin-left: 40%" 
+                                        variant="brand">
+                                    </lightning-button>
+                                </span>
+                            </div>
                         </div>
-                    </th>
-                    <th class="" scope="col">
-                        <div class="slds-truncate" title="Name">Name</div>
-                    </th>
+                    </td>    
                 </tr>
-            </thead>
-            <tbody>
-                <template for:each={records} for:item="rec">
-                    <tr key={rec.Id}>
-                        <th scope="col">
-                            <div>
-                                <lightning-input type="checkbox" 
-                                    value={rec.Name} 
-                                    data-id={rec.Id}>
+            </table>
+
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                        <th class="" scope="col">
+                            <div class="slds-truncate">
+                                <lightning-input onchange={allSelected} 
+                                    type="checkbox">
                                 </lightning-input>
                             </div>
                         </th>
-                        <th scope="col">
-                            <div>{rec.Name}</div>
+                        <th class="" scope="col">
+                            <div class="slds-truncate" title="Name">Name</div>
                         </th>
                     </tr>
-                </template>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    <template for:each={records} for:item="rec">
+                        <tr key={rec.Id}>
+                            <th scope="col">
+                                <div>
+                                    <lightning-input type="checkbox" 
+                                        value={rec.Name} 
+                                        data-id={rec.Id}>
+                                    </lightning-input>
+                                </div>
+                            </th>
+                            <th scope="col">
+                                <div>
+                                    <lightning-formatted-url 
+                                        value={rec.Id_Link} 
+                                        tooltip={rec.Id_Link}
+                                        label={rec.Name}
+                                        target="_blank" >
+                                    </lightning-formatted-url>
+                                </div>
+                            </th>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+
+        </template>
     </lightning-card>
 </template>

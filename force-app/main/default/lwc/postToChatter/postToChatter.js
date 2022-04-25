@@ -1,21 +1,26 @@
-import { LightningElement, track } from 'lwc';
+import { LightningElement, api } from 'lwc';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent'; 
 import getObjSearchList from '@salesforce/apex/objSearchController.getObjSearchList'; 
 import postRecords from '@salesforce/apex/objSearchController.postRecords';
-import TickerSymbol from '@salesforce/schema/Account.TickerSymbol';
 
 export default class PostToChatter extends LightningElement {
 
-    objName = 'Account';
-    @track searchKey;
-    @track records;
-    @track selectedRecords;
-    @track error; 
+    @api objName = 'Account';
+
+     searchKey;
+     records;
+     selectedRecords;
+     postMessage;
+     error;
+
     isSearchChangeExecuted = false;
-    postMessage;
+    isValidSearch = false;
+    
+    searchHeader;
 
     renderedCallback() 
     {
+        this.searchHeader = this.objName + ' Searches';
         // This line added to avoid duplicate/multiple executions of this code.  
         if (this.isSearchChangeExecuted) {  
             return;  
@@ -24,14 +29,12 @@ export default class PostToChatter extends LightningElement {
         this.isSearchChangeExecuted = true;
         getObjSearchList({ objName: this.objName, searchString: this.searchKey })  
         .then(objectList => {  
-            this.records = objectList;  
+            this.populateData(objectList);   
             this.error = undefined;
-
             const event = new CustomEvent('recordsload',
             {  
                 detail: objectList  
             });  
-        
             this.dispatchEvent(event);
         })  
         .catch(error => {  
@@ -41,13 +44,39 @@ export default class PostToChatter extends LightningElement {
         
     }
 
+    populateData(objectList) 
+    {
+        console.log('Json Result Record: ' + JSON.stringify(objectList));
+        this.records = new Array();
+        objectList.forEach(record => 
+            {                
+                var temprecord = JSON.parse(JSON.stringify(record));
+                console.log('*** Before Record: ' + JSON.stringify(record)); 
+                temprecord.Id_Link = '/' + record.Id;
+                this.records.push(temprecord);
+                console.log('*** After Record: ' + JSON.stringify(temprecord));
+                
+            });
+
+        console.log('***records ' + this.records);
+
+    }
+
     handleKeyChange(event) 
     {  
         if (this.searchKey !== event.target.value) {  
-            this.isSearchChangeExecuted = false;  
-            this.searchKey = event.target.value;  
+            this.isSearchChangeExecuted = false;
+            this.searchKey = event.target.value;
+            this.isValidSearch = false;
+            if (this.searchKey)
+                this.isValidSearch = true; 
             this.dispatchEvent(new CustomEvent('first'));   
         }  
+    }
+
+    handlePostMessage(event) 
+    {  
+        this.postMessage = event.target.value
     }
 
     // Select the all rows
@@ -64,7 +93,7 @@ export default class PostToChatter extends LightningElement {
 
     postSelectedRecords() 
     {
-        if (this.postMessage===null){
+        if (!this.postMessage){
             this.dispatchEvent(new ShowToastEvent({
                 title: 'ERROR',
                 message: 'Please enter a message for posting...',

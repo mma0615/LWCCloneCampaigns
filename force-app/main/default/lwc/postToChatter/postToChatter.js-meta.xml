@@ -6,5 +6,10 @@
         <target>lightning__AppPage</target>
         <target>lightning__RecordPage</target>
         <target>lightning__HomePage</target>
-    </targets>  
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage">
+            <property label="Object API Name" name="objName" type="String"/>
+        </targetConfig>
+    </targetConfigs>  
 </LightningComponentBundle>
